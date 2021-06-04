@@ -36,6 +36,11 @@ usethis::create_github_token()
 install.packages("gitcreds")
 #check out git config file
 edit_git_config()
+#initialize git repository
+#create a new project
+use_git()
+
+
 #type credentials and connect to github
 library(gitcreds)
 gitcreds_set()
